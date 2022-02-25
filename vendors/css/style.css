@@ -1,0 +1,446 @@
+/*
+  Template Name:Lucid Landing Page
+  Template URL:http://lucidpsdtemplate.com
+  Author:Alamin
+  Author URL:http://alamin.me
+  Description:This is lucid psd template
+
+*/
+
+/*--------------------------------------------------
+------------------------------------------------------*/
+/* ---------------------------------------------------
+    Table Of Content
+
+    01 Top header 
+	02 Banner 
+	03 List amazaing 
+	04 Beatuful every device 
+	05 Customize device
+	06 Client  
+	07 Like to say 
+	08 Pricing and plan
+	09 Contact 
+	10 Google map
+	11 Footer 
+	
+ /*-------------------------------------------
+------------------------------------------------*/
+/* --------------------------------------------*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap");
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+p,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* menu icon */
+.menu_icon {
+  font-size: 28px;
+  color: #0095ff;
+  float: right;
+  border: 1px solid #0fae77;
+  display: inline-block;
+  padding: 2px 15px;
+  line-height: 31px;
+  border-radius: 5px;
+  display: none;
+}
+
+/* -------------------------------------------------------
+                     Top header 
+-------------------------------------------------------- */
+
+header {
+  position: absolute;
+  left: 0;
+  top: -8px;
+  width: 100%;
+  z-index: 9999;
+}
+header.sticky {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  position: fixed;
+}
+
+.sticky img.dark {
+  width: 157px;
+  height: 34px;
+}
+
+.head_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 33px 0;
+}
+.sticky .head_text {
+  padding: 20px 0;
+}
+nav {
+  margin-left: -19%;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.menu ul li a {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 400;
+}
+.menu ul li a:hover {
+  color: rgb(0, 124, 245);
+}
+
+.sticky .menu ul li a {
+  color: #000000;
+}
+.sticky .menu ul li a:hover {
+  color: rgb(0, 124, 245);
+}
+
+.menu ul li a.logo {
+  padding-right: 43px;
+}
+
+/* create account */
+.create_account ul {
+  display: flex;
+  gap: 23px;
+}
+.create_account ul li.add_cart i {
+  color: #fff;
+}
+.sticky .create_account ul li.add_cart i {
+  color: #000000;
+}
+
+.create_account ul li.sign_in i {
+  color: #fff;
+}
+
+.create_account ul li.sign_in a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #fff;
+  border-radius: 25px;
+  background-color: #007cf5;
+  padding: 12px 20px;
+  box-shadow: 1px 25px 42px 0 rgb(0 118 255 / 23%);
+}
+.create_account ul li.sign_in a:hover {
+  background-color: rgb(0, 85, 169);
+}
+
+/* nav-toggle  */
+/* nav-toggle  */
+
+.navr-toggle {
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+  outline: none;
+  border: 0px;
+  background: none;
+  position: absolute;
+  top: 19px;
+  left: 86%;
+  display: none;
+}
+.navr-toggle .ico,
+.navr-toggle .ico::before,
+.navr-toggle .ico::after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 3px;
+  width: 35px;
+  background: #adadad;
+  position: absolute;
+  left: 0px;
+  display: block;
+  content: "";
+  transition: all 300ms ease-in-out;
+}
+
+.navr-toggle .ico:before {
+  top: -10px;
+}
+.navr-toggle .ico:after {
+  bottom: -10px;
+}
+.navr-toggle.active .ico:before,
+.navr-toggle.active .ico:after {
+  top: 0px;
+}
+.navr-toggle.active .ico {
+  background-color: transparent;
+}
+.navr-toggle.active .ico:before {
+  transform: rotate(-50deg);
+}
+.navr-toggle.active .ico:after {
+  transform: rotate(50deg);
+}
+/* Only for demo */
+.navr-toggle {
+  z-index: 999;
+  position: fixed;
+}
+
+/* -------------------------------------------------------
+                    Banner  
+-------------------------------------------------------- */
+
+.banner-area {
+  background: url(../img/banner-bg-illus.svg);
+  /* height: 100vh; */
+  background-color: #13038f;
+  background-position: top 190px center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 131px 0 210px;
+  /* padding-top: 131px; */
+}
+
+.banner__text_wrap {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.banner__text_wrap h1 {
+  font-weight: 800;
+  font-size: 43px;
+  line-height: 51px;
+  color: #fff;
+}
+
+.banner__text_wrap p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+}
+
+.suscribe-right {
+  width: 581px;
+  max-width: 100%;
+  border-radius: 25px;
+  display: inline-flex;
+  margin-bottom: 0;
+  margin-top: 19px;
+}
+.suscribe-right form {
+  position: relative;
+}
+
+.suscribe-email input {
+  font-size: 15px;
+  color: #9b9b9b;
+  letter-spacing: 0.14px;
+  line-height: 35px;
+  padding: 8px 119px 7px 23px;
+  outline: 0 none;
+  width: 140%;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  transition: all 0.3s linear;
+  border-radius: 25px;
+}
+.suscribe-email input::placeholder {
+  font-size: 15px;
+  color: #9b9b9b;
+}
+
+.suscribe-btn input[type="submit"] {
+  background: #ff0094;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 16px 48px;
+  border: none;
+  float: right;
+  font-size: 18px;
+}
+
+.suscribe-btn input[type="submit"] {
+  position: absolute;
+  top: 0px;
+  right: -85%;
+}
+
+/* -------------------------------------------------------
+                    Price Section  
+-------------------------------------------------------- */
+
+.all_price_section_ {
+  background: #f5f7f9;
+  padding-bottom: 70px;
+}
+.all_priceess_area {
+  display: flex;
+  margin-top: -160px;
+  justify-content: center;
+}
+.single_price {
+  flex: 0 0 31%;
+  margin: 2%;
+}
+
+.second_price_section {
+  margin-top: 50px;
+}
+
+/* .bottom_sinlge_price {
+  flex: 0 0 50%;
+} */
+
+.all_coupon_product {
+  position: relative;
+  background-color: white;
+  border: 1px solid #f9f9f9;
+  box-shadow: 0 70px 70px 0 rgb(0 0 0 / 11%);
+  border-radius: 3px;
+  padding: 81px 50px 50px;
+  max-width: 337px;
+  margin: 0 auto;
+}
+
+.all_coupon_product img {
+  position: absolute;
+  top: -38px;
+  left: 44px;
+}
+
+.all_coupon_product h2 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 31px;
+}
+
+.all_coupon_product p {
+  color: rgb(79, 91, 109);
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 12px;
+}
+
+.all_coupon_product a {
+  color: #fff;
+  background: #ff2c5d;
+  padding: 13px 25px;
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 17px;
+  text-shadow: 0 2px 3px rgb(0 0 0 / 18%);
+  transition: all 0.25s;
+  line-height: 17px;
+}
+
+.couopn__pricing_tag {
+  margin-bottom: 32px !important;
+  margin-right: -25px;
+}
+
+.couopn__pricing_tag .product_price {
+  color: red;
+  font-size: 39px;
+  font-weight: 800;
+}
+.couopn__pricing_tag sup._dolar_sign {
+  color: red;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.couopn__pricing_tag .starting__text {
+  font-size: 16px;
+  color: #677181;
+  font-weight: 400;
+  line-height: 1px;
+}
+.couopn__pricing_tag .starting__text i.icon_left {
+  margin-left: 8px;
+  font-size: 11px;
+  color: #b3c1d9;
+  font-weight: 700;
+}
+
+/* -------------------------------------------------------
+                    Discount Section  
+-------------------------------------------------------- */
+.all_discount_area_here {
+  background-color: white;
+}
+
+.all_discount_sec {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.single_sect {
+  flex: 0 0 50%;
+}
+
+.single_sect2 {
+  flex: 0 0 50%;
+}
+.left_contet_discount h2 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  color: rgb(72, 72, 72);
+}
+
+.left_contet_discount p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgb(138, 138, 138);
+  width: 111%;
+  margin-top: 13px;
+}
+
+.right_image_discou img {
+  height: auto;
+  max-width: 100%;
+}

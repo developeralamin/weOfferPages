@@ -1,0 +1,160 @@
+@media all and (max-width: 1238px) {
+  .all_priceess_area {
+    flex-wrap: wrap;
+  }
+  .single_price {
+    flex: 0 0 43%;
+    margin: 2%;
+    padding-top: 54px;
+  }
+}
+
+@media all and (max-width: 1184px) {
+  .container {
+    max-width: 1050px;
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 890px) {
+  .navr-toggle {
+    display: block;
+  }
+  .menu ul {
+    display: none;
+    position: absolute;
+    top: 73px;
+    width: 100%;
+    right: 0;
+    background: #000;
+    z-index: 99;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .menu ul li a {
+    color: white !important;
+  }
+
+  /* .sticky .head_text {
+    padding: 40px 0px;
+  } */
+
+  .menu ul li a.logo {
+    padding-right: 43px;
+    position: absolute;
+    top: -49px;
+    left: 0;
+  }
+
+  .sticky.menu ul li a {
+    color: white;
+  }
+
+  .create_account ul li.add_cart i {
+    display: none;
+  }
+
+  .create_account ul li.sign_in {
+    display: none;
+  }
+}
+
+@media all and (min-width: 890px) {
+  .menu ul {
+    display: flex !important;
+  }
+}
+
+@media all and (max-width: 852px) {
+  .single_price {
+    flex: 0 0 71%;
+    margin: 2%;
+    padding-top: 54px;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .single_price .second_price_section {
+    flex: 0 0 88%;
+    margin: 2%;
+    padding-top: 54px;
+  }
+}
+
+@media all and (max-width: 990px) {
+  nav {
+    margin-left: -4%;
+  }
+}
+
+@media all and (max-width: 952px) {
+  .all_discount_sec {
+    flex-direction: column;
+  }
+  .single_sect2 {
+    flex: 0 0 100%;
+    order: -1;
+    margin-bottom: 30px;
+  }
+  .left_contet_discount p {
+    width: 89%;
+  }
+}
+
+@media all and (max-width: 684px) {
+  .suscribe-email input {
+    width: 57%;
+  }
+  .suscribe-btn input[type="submit"] {
+    right: -33%;
+  }
+}
+
+@media all and (max-width: 538px) {
+  img.save-big {
+    width: 300px;
+  }
+}
+
+@media all and (max-width: 464px) {
+  .suscribe-email input {
+    width: 57%;
+  }
+  .suscribe-btn input[type="submit"] {
+    right: -5%;
+  }
+}
+
+@media all and (max-width: 408px) {
+  .suscribe-btn input[type="submit"] {
+    padding: 16px 19px;
+  }
+  .navr-toggle {
+    left: 80%;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .suscribe-email input {
+    width: 43%;
+  }
+  .suscribe-btn input[type="submit"] {
+    right: -1%;
+    padding: 20px 16px;
+    font-size: 12px;
+  }
+  img.save-big {
+    width: 258px;
+  }
+
+  .single_price {
+    flex: 0 0 98%;
+    margin: 2%;
+    padding-top: 54px;
+  }
+}
+@media all and (max-width: 280px) {
+  img.save-big {
+    width: 248px;
+  }
+}
