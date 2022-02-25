@@ -346,6 +346,13 @@ nav {
   left: 44px;
 }
 
+img.offer {
+  position: absolute;
+  top: -1px;
+  left: 262px;
+  width: 14%;
+}
+
 .all_coupon_product h2 {
   color: rgb(0, 0, 0);
   font-size: 30px;
